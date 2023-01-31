@@ -30,7 +30,7 @@ def agecategory(age):
 #         maindict["ageGroups"][agecategory(sheet_obj(row=i,column=1).value)]+=1
 tot=0
 for i in range(2, totalrows + 1):
-    if(sheet_obj.cell(row=i,column=2).value==0):
+    if(sheet_obj.cell(row=i,column=2).value==1):
         continue
     tot+=1
     # print(sheet_obj.cell(row=i,column=1).value)
@@ -111,4 +111,4 @@ for key in maindict["ageGroups"]:
 # a.sort()
 # print(a)
 # print(tot)
-# print(maindict)
+print(maindict)

@@ -34,5 +34,5 @@ for string in sd:
     print(strin," ",scorestring[strin])
 
 json_object = json.dumps(scorestring, indent=4)
-with open("sample.json", "w") as outfile:
+with open("samplef.json", "w") as outfile:
     outfile.write(json_object)

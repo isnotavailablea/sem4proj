@@ -37,7 +37,7 @@ if __name__=="__main__":
     for keys in others:
         print(keys, "=", others[keys])
         # l.append(keys)
-    workbook = xlsxwriter.Workbook('zerprod.xlsx')
+    workbook = xlsxwriter.Workbook('zerprodf.xlsx')
     worksheet = workbook.add_worksheet()
     totalrows = 0
     # l.sort()
